@@ -38,6 +38,8 @@
       {{ block "main" . }}
         {{ .Content }}
       {{ end }}
+      {{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
+
     </main>
   </body>
 </html>

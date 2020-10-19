@@ -1,8 +1,14 @@
 # m10c theme
 
-![Intro](https://github.com/vaga/hugo-theme-m10c/blob/master/images/cover.png)
+![Intro](images/cover.png)
 
 A Hugo minimalistic theme for bloggers
+
+## Changes since Fork
+
+- Removed title from post listing.
+- Changed to relative paths for image rendering for better Markdown Preview and compatibility using custom [render-image.html](https://github.com/gohugoio/hugo/issues/6545#issuecomment-655757059).
+- Added basic Latex suport, enabled by including ```katex: true``` in frontmatter of a markdown page.
 
 ## Getting started
 
